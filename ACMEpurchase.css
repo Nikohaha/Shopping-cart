@@ -1,0 +1,123 @@
+/* Starter CSS code */
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: rgb(24, 24, 24);
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+
+
+header,
+footer {
+
+    background-color: burlywood;
+    padding: 5px 5px;
+    color: rgb(16, 16, 107)
+}
+
+h1 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    text-align: right;
+    line-height: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 8px;
+    font-stretch: expanded;
+
+}
+
+.tagline {
+
+    text-align: right;
+    font-size: 1rem;
+    margin-top: 3px;
+    font-style: italic;
+    margin-right: 10px;
+
+}
+
+.invoice {
+
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.invoice tr :first-child {
+
+    width: 50%;
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+.invoiceheader {
+
+    border-bottom: 1px black solid;
+
+}
+
+.totalline {
+
+    background-color: beige;
+
+}
+
+.centered {
+
+    text-align: center;
+
+}
+
+#purchase {
+
+width: 80px;
+    text-align:center;
+    background-color: rgb(233, 227, 227);
+    position: relative;
+    left: 1266px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.itemdetails {
+
+    margin: 15px 0px;
+
+}
+
+footer {
+
+    margin-top: 15px;
+    text-align: center;
+    font-style: italic;
+    padding: 10px 0;
+
+}
+
+
+.disabled {
+    background-color: #f0f0f0;
+    border: 1px solid rgb(183, 179, 179);
+}
+
+.likebtn{
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.pur-btn{
+    color: rgb(183, 179, 179);
+}
+
+.show-btn{
+    color:#000;
+}
